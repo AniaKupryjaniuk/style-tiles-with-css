@@ -25,6 +25,9 @@ use the fonts in other ways in the font hierarchy etc. */
 
   --white-space: 1rem;
 }
+body {
+    background: #DCD1C1;
+}
 
 button {
   transition: all 3s;
@@ -33,8 +36,7 @@ a {
   transition: all 3s;
 }
 button:hover {
-  background-color: var(--link-hover-color);
-  transform: scale(3) rotate(40deg);
+  opacity: 0.4 ;
 }
 
 button:active {
@@ -64,7 +66,7 @@ footer {
 }
 
 .full-width {
-  background: var(--bg-color);
+  background: #262421;
   color: white;
   width: 100%;
 }
@@ -125,23 +127,23 @@ ul li:last-child {
 }
 
 .color-swatch-1 {
-  background-color: var(--bg-color);
+  background-color: #262421;
 }
 
 .color-swatch-2 {
-  background-color: var(--link-color);
+  background-color: #57524B;
 }
 
 .color-swatch-3 {
-  background-color: var(--link-hover-color);
+  background-color: #958C7F;
 }
 
 .color-swatch-4 {
-  background-color: var(--color-4);
+  background-color: #6D5B42;
 }
 
 .color-swatch-5 {
-  background-color: var(--color-5);
+  background-color: #DCD1C1;
 }
 
 .textures li {
@@ -179,22 +181,22 @@ ul li:last-child {
 
 button {
   padding: 1rem;
-  border-radius: 4px;
-  background: var(--link-color);
+  border-radius: 10px;
+  background: #57524B;
   text-align: center;
   text-decoration: none;
-  font: bold 1.25em/1 var(--primary-font);
+  font: "roboto" lighter 1.25em/1 white;
   letter-spacing: 1px;
   color: white;
   text-transform: uppercase;
-  text-shadow: 0px -1px 0px #0374a0;
-  transition: all 0.2s ease;
+  box-shadow: 0px 3px 3px black;
+  transition: all 0.4s ease;
   cursor: pointer;
   margin: 0 1rem 1rem 0;
 }
 
 .secondary-button {
-  background: var(--color-5);
+  background: #958C7F;
 }
 
 button:focus,
