@@ -20,8 +20,7 @@ use the fonts in other ways in the font hierarchy etc. */
   --color-4: hotpink;
   --color-5: rebeccapurple;
 
-  --primary-font: "Open Sans", sans-serif;
-  --secondary-font: "Droid Serif", serif;
+  --primary-font: "Roboto", sans-serif;
   --main-text-color: #000;
 
   --white-space: 1rem;
